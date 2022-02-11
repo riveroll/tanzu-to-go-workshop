@@ -40,7 +40,7 @@ rm -rfv ~/.cache/tanzu
 
 **Windows:**
 ```
-cp -v ./setup/vendir/binaries/standalone/tanzu-standalone.exe ${env:localappdata}\tanzu-cli\tanzu-plugin-standalone.exe
+cp -v ./setup/vendir/binaries/standalone/tanzu-standalone ${env:localappdata}\tanzu-cli\tanzu-plugin-standalone.exe
 rmdir ${env:homepath}\.cache\tanzu
 ```
 
